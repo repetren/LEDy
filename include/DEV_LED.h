@@ -5,7 +5,6 @@ int target_level = 0;
 
 void level_adjust(int old, int target);
 
-
 struct DEV_DimmableLED : Service::LightBulb
 {
   LedPin *ledPin;
@@ -70,8 +69,6 @@ struct DEV_DimmableLED : Service::LightBulb
 
     old_power = target_power;
     old_level = target_level;
-
-
 
     return(true);
   
