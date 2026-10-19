@@ -1,7 +1,5 @@
 # LEDy – ESP32-based smart floorlamp upgrade
 
-## Video Demo: https://youtu.be/cS3yukethr4
-
 ## Description
 LEDy is a hardware project designed to integrate old LED strips into the Apple HomeKit system. It uses the ESP32 microcontroller with the HomeSpan library for the Arduino framework. It supports existing hardware buttons and capacitive sensors, allowing control over brightness and on/off state for LED strips or any other 12V load.
 The project consists of two parts: code and hardware. A Gerber file for the custom PCB is included. The PCB form factor is based on the physical dimensions of the original floorlamp housing but can be reused in other compact devices, as the PCB width matches the ESP32 chip.
